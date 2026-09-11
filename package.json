@@ -1,0 +1,18 @@
+{
+  "name": "vanquisher-wa",
+  "version": "1.0.0",
+  "description": "Vanquisher WhatsApp Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pino": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
